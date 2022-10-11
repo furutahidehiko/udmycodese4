@@ -99,14 +99,14 @@
 /**
  * 分割代入
  */
-// const myProfile = {
-//   name: "takahashi",
-//   age: 38
-// };
+const myProfile = {
+  name: "takahashi",
+  age: 38,
+};
 
-// const message3 = `名前は、${myProfile.name}です`;
-// console.log(message3);
+const message3 = `名前は、${myProfile.name}です`;
+console.log(message3);
 
-// const { name, age } = myProfile;
-// const message4 = `${name}${age}`;
-// console.log(message4);
+const { name, age } = myProfile;
+const message4 = `${name}${age}`;
+console.log(message4);
