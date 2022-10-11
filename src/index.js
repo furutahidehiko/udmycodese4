@@ -1,13 +1,13 @@
-// import "./styles.css";
+import "./styles.css";
 
-// document.getElementById("app").innerHTML = `
-// <h1>Hello Vanilla!</h1>
-// <div>
-//   We use the same configuration as Parcel to bundle this sandbox, you can find more
-//   info about Parcel
-//   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-// </div>
-// `;
+document.getElementById("app").innerHTML = `
+<h1>Hello Vanilla!</h1>
+<div>
+  We use the same configuration as Parcel to bundle this sandbox, you can find more
+  info about Parcel
+  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
+</div>
+`;
 
 //const・let
 // var val1 = "var変数";
@@ -99,14 +99,14 @@
 /**
  * 分割代入
  */
-// const myProfile = {
-//   name: "takahashi",
-//   age: 38
-// };
+const myProfile = {
+  name: "takahashi",
+  age: 38,
+};
 
-// const message3 = `名前は、${myProfile.name}です`;
-// console.log(message3);
+const message3 = `名前は、${myProfile.name}です`;
+console.log(message3);
 
-// const { name, age } = myProfile;
-// const message4 = `${name}${age}`;
-// console.log(message4);
+const { name, age } = myProfile;
+const message4 = `${name}${age}`;
+console.log(message4);
